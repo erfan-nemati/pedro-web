@@ -63,6 +63,7 @@
 .header-bottom{
     display: flex;
     align-items: center;
+    margin-top: 1.5rem;
 
 
 }
@@ -74,22 +75,28 @@
 }
 
 .header-contant{
+    max-width: 28rem;
     
 
 }
 
 .header-title{
     color: #081D43;
+    font-weight: normal;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
 
 }
 
 .header-text{
     color: #6C7890;
     line-height: 2rem;
+    font-size: 1.2rem;
 
 }
 .bottom-link-contant{
     display: flex;
+    margin-top: 1rem;
 
 }
 
