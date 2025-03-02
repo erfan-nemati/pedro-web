@@ -185,6 +185,85 @@ justify-content: space-around;
     border-radius: 2rem;
 }
 
+.comments{
+    background-color: #3333FF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem 2rem;
+
+}
+
+.comments-title{
+    color: azure;
+    font-weight: normal;
+    font-size: 2.5rem;
+
+
+}
+
+.comments-text{
+    color: aliceblue;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+
+}
+
+.comment{
+    margin: 3.5rem 0;
+    display: flex;
+
+}
+
+.comment-box{
+    display: flex;
+    gap: 2rem;
+    
+
+}
+
+
+
+.comment-content{
+    background-color: #fff;
+    padding: 1rem 1rem 0 1rem;
+    border-radius: 8px;
+
+}
+
+.comment-body{
+    line-height: 1.5rem;
+    color: #6C7890;
+    font-size: 1.23rem;
+    text-align: left;
+}
+
+.comment-person{
+display: flex;
+align-items: center;
+background-color: #fff;
+gap: 0.5rem;
+border-top: 1px solid gray;
+padding: 10px 0;
+margin-top: 1.5rem;
+
+}
+
+.person-img{
+    width:75px;
+    height:75px;
+    border-radius: 90px;
+    
+
+}
+
+.person-name{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+
 @media only screen and (max-whdth:1200px) {
     .conteiner{
         max-width: 960px;
